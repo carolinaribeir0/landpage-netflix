@@ -1,0 +1,105 @@
+*{margin:0; padding:0; box-sizing: border-box;}
+    body{
+        background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/259422c0-c399-4047-baf2-44bac5612ac1/21c11419-d7c2-4dc3-90bb-ace537568083/BR-pt-20240819-POP_SIGNUP_TWO_WEEKS-perspective_WEB_74ce8a77-b454-4b56-b9f2-2b3ca6d9a4b9_large.jpg);
+        background-position: cover;
+        background-size: top-center;
+    }
+
+    #heading div{
+        padding: 20px 0; 
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 15px auto;
+    }
+    #heading h1{
+        font-size: 40px;
+        text-transform: uppercase;
+            }
+    #heading a{
+        color: #e50914;
+        text-decoration: none;
+        font-family: sans-serif;
+
+    }
+    #login {
+        width: 100px;
+        height: 45px;
+        text-align: center;
+        background-color: #e50914;
+        font-family: sans-serif;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    #texto-central{
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%,-50%);
+    }
+    #texto-central h2{
+        margin: 0;        
+        text-align: center;
+        color: #fff;
+        font-size:3em;
+        font-family: sans-serif;
+    }
+
+    #texto-central p{
+        text-align: center;
+        font-family: sans-serif;
+        color: #fff;
+        font-size: 20px;
+    }
+    #vamos-la{
+        justify-content: space-evenly;
+        justify-items: center;
+        font-family: sans-serif;
+        display: flex;
+        font-size: 15px;
+        
+        
+
+    }
+    #vamos-la form{
+        background-color: rgba(0,0,0,0.7);
+        margin: 0 auto;
+        width: 400px;
+        border: 1px solid;
+        padding: 1em;;
+        border-radius: 1em;
+        
+    }
+    #email{
+        background-color: rgba(0,0,0,0.7);
+        outline: none;
+        border: none;
+        box-shadow: none;
+
+        
+    }
+    #vamos-la button{
+        
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        text-align: center;
+        background-color: #e50914;
+        color: #fff;
+        border-radius: 10px;
+        
+    }
+    main:after{
+    content: "123";
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(120deg, #000000 10%, rgba(0, 0, 0, 0.05926120448179273) 70%, rgba(0, 0, 0, 0.5) 90%);
+    z-index: -1;
+}
